@@ -58,7 +58,12 @@ class App extends Component {
         {todoList.map((todo, key) => {
           console.log('todo:', todo)
           // should add the key for each item for react
-          return <p> {todo.title} </p>
+          return ( 
+            <div>
+              <h5> {todo.title} </h5>
+              <p>{todo.body}</p>
+            </div>
+          )
         } )}
       </div>
     );
