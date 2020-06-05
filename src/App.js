@@ -9,6 +9,17 @@ class App extends Component {
     todos: [] // get these from server  
   }
 
+  componentDidMount() {
+    // get all todos from server and setstate
+
+    todoService.getAll()
+    .then(todosFromServer => {
+      console.log('todosFromServer', todosFromServer)
+      this.setState({todos: todosFromServer})
+    } )
+    .catch(err => {console.log('error from trying to get todos from server', err)})
+  }
+
   // new func to add a todo
 
   addNewTodo = (todo) => {

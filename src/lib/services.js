@@ -3,7 +3,7 @@ import axios from "axios"
 class Todo {
     constructor() {
         this.todo = axios.create({
-            baseURL: "http://localhost:4000",
+            baseURL: "http://localhost:4000/api/v1",
             withCredentials: true
         })
     }
@@ -19,6 +19,12 @@ class Todo {
         return this.todo
         .post("/todos", newTodo)
         .then((response) => response.data)
+    }
+
+    deleteOne(id) {
+        // get id from params
+        return this.todo
+        .delete("/todos/:id")
     }
 }
 

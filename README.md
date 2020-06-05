@@ -4,6 +4,7 @@
 ## < Frontend Test >
 
 Used most of the time trying to connect FE + BE with one method, create new todo but couldn't make it work.
+Update: apparently I had to make a getAll request first and then createNew strated working with no modifications.
 
 ## What is this about:
 ----
