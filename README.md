@@ -3,6 +3,8 @@
 # React Todo-list challenge
 ## < Frontend Test >
 
+Used most of the time trying to connect FE + BE with one method, create new todo but couldn't make it work.
+
 ## What is this about:
 ----
  The purpose of this test is to know your ability to create a small functional single page application in a limit of time. Below you’ll find the features, the requirements and the key points you should keep on mind while developing.
