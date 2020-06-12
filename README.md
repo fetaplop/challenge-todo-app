@@ -2,9 +2,7 @@
 
 # React Todo-list challenge
 ## < Frontend Test >
-
-Used most of the time trying to connect FE + BE with one method, create new todo but couldn't make it work.
-Update: apparently I had to make a getAll request first and then createNew strated working with no modifications.
+Connected BE + FE. Most of the stuff is in App.js. Will delete about everything to start over with TypeScript. NOTE-TO-SELF DID NOT PUSH ANY OF THE CHANGES there will be merge conflicts so just force push the TS init when it's done!
 
 ## What is this about:
 ----
